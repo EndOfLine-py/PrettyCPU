@@ -203,6 +203,13 @@ def main(color: str, celcius: bool):
                     elif i > 6:
                         break
 
+            line1.append("\033[0m")
+            line2.append("\033[0m")
+            line3.append("\033[0m")
+            line4.append("\033[0m")
+            line5.append("\033[0m")
+            line6.append("\033[0m")
+
             print("  ".join(line1))
             print("  ".join(line2))
             print("  ".join(line3))
